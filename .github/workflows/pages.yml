@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: python3 -c "print('HI!')"
 
-      - run: mdkir site
+      - run: mkdir site
 
       - run: echo "Hello!" > site/index.txt
 
